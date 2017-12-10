@@ -6,6 +6,8 @@ Sites hosted by Github are simple static sites. This means that they can only be
 Github pages cannot import databases like MySql  or content management system like WordPress/Drupal. You will have to use another hosting service like Heroku or Digial Ocean to host full stack applications.
 Github pages is powered by Jekyll. If you want to customize your own theme you will need to use Jekyll. Jekyll is a static website generator that lets you use markdown to create a site. In order to use Jekyll you need to be familar with the Ruby programming language
 
+[Link to My first Github Hosted Page](https://zaynaib.github.io/)
+
 [Documentation to Github Page](https://pages.github.com/)
 
 [Documentation to Jekyll](https://jekyllrb.com/)

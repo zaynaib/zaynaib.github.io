@@ -7,3 +7,13 @@ body{
     justify-content: center;
     flex-direction: row;
 }
+
+main{
+    width:960px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    margin:auto;
+}

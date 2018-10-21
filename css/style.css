@@ -1,0 +1,9 @@
+span{
+    font-weight:bold;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}

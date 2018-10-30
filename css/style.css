@@ -17,3 +17,12 @@ main{
 header{
     margin:auto;
 }
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+}
+
+#profile-pic{
+    width: 95px;
+    position: relative;
+}

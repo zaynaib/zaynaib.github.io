@@ -3,8 +3,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import {usePosts} from "../hooks/usePosts"
 
-export default function About({ data }) {
-
+export default function Posts({ data }) {
+    console.log(data)
   return (
     <Layout>
       <h1>About {data.site.siteMetadata.title}</h1>
@@ -17,10 +17,16 @@ export default function About({ data }) {
 }
 
 export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
+{
+    allDevArticles {
+      edges {
+        node {
+          article {
+            id
+            title
+            description
+          }
+        }
       }
     }
   }
